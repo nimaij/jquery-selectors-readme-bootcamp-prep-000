@@ -7,7 +7,10 @@ $(document).ready(function() {
     return $('img:last')
   }
   function ninjaBabySelector(){
-    return $('img:last')
+    return $('#baby-ninja')
+  }
+  function divSelector(){
+    
   }
   // code to be executed goes here
 });
