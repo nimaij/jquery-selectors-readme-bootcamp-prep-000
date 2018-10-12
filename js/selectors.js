@@ -1,19 +1,17 @@
 // declare your functions here...
-$(document).ready(function() {
-  function paragraphSelector(){
+function paragraphSelector(){
     return $('p')
-  }
-  function lastImageSelector(){
+}
+function lastImageSelector(){
     return $('img:last')
-  }
-  function ninjaBabySelector(){
+}
+function ninjaBabySelector(){
     return $('#baby-ninja')
-  }
-  function divSelector(){
+}
+function divSelector(){
     return $('pics')
-  }
-  function firstListItem(){
+}
+function firstListItem(){
     return $('#pic-list li:first-child')
-  }
-  // code to be executed goes here
-});
+}
+// code to be executed goes here
