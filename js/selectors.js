@@ -13,7 +13,7 @@ $(document).ready(function() {
     
   }
   function firstListItem(){
-    return $('ul #pic-list:first-child')
+    return $('#pic-list ul:first-child')
   }
   // code to be executed goes here
 });
